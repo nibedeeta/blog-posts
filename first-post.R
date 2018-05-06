@@ -4,7 +4,7 @@ library(R2jags)
 
 # Import data -------------------------------------------------------------
 
-cleague2017 <- read_csv("champions-league-2017-CentralEuropeanStandardTime.csv")
+cleague2017 <- read_csv("first-post-data.csv")
 
 
 # variable names have spaces (i.e. <Home Team>) and this bothers me IMMENSLY, so:
